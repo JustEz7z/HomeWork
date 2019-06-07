@@ -1,3 +1,4 @@
+from random import randint
 # 1
 # number = int(input("Enter number: "))
 # if number % 2 == 0:
@@ -79,11 +80,49 @@
 
 ####################################################
 # 6
-list_string = []
-for x in range(4):
-    list_string.append(input("Enter some text type string: "))
-for x in list_string:
-    print(x)
-    # 7
-    print(x,end='#')
+# list_string = []
+# for x in range(4):
+#     list_string.append(input("Enter some text type string: "))
+# for x in list_string:
+#     # task 6
+#     # print(x)
+#     # task 7
+#     for i in x:
+#         print(i,end='#')
 #####################################################
+# 8
+# a = input("Enter some number: ")
+
+# if a / a :
+#     print()
+#  task 9
+# a = randint(0,100)
+# b = []
+
+# print(a)
+# for i in str(a):
+#     b.append(int(i))
+# print(max(b))
+# task 10
+# text = str(input("Enter some text: "))
+# rev = text[::-1]
+
+# if text == rev:
+#     print("Текст є однаковий як і відзеркалений")
+# else:
+#     print("Текст не є однаковий як і відзеркалений")
+# task 2.1
+# a = []
+# n = int(input("Enter amount indexes: "))
+# for i in range(n):
+#     a.append(int(input("Enter number: ")))
+# print(a)
+# print("Max number from a list is {}".format(max(a)))
+# print("Min number from a list is {}".format(min(a)))
+
+
+
+
+
+
+
