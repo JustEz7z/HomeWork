@@ -1,3 +1,4 @@
+# 1
 # number = int(input("Enter number: "))
 # if number % 2 == 0:
 #     print("{} is parne".format(number))
@@ -14,6 +15,7 @@
 #     print(factorial)
 
 #################################################
+# 2
 # num = list(range(100))
 # leng = len(num)
 # i = 0
@@ -33,7 +35,7 @@
 #         print(ind)
 
 ###################################################
-
+# 3
 # num = list(range(100))
 # leng = len(num)
 # i = 0
@@ -52,7 +54,7 @@
 #         continue
 
 #####################################################
-
+# 4
 # list_number = list(range(10))
 # j = 0
 # for x in list_number:
@@ -60,6 +62,7 @@
 #     j += 1
 # print(list_number)
 ####################################################
+# 5
 # list_number = []
 # x = 0
 # j = 0
@@ -75,9 +78,12 @@
 # print(list_number)
 
 ####################################################
-# list_string = []
-# for x in range(4):
-#     list_string.append(input("Enter some text type string: "))
-# for x in list_string:
-#     print(x)
+# 6
+list_string = []
+for x in range(4):
+    list_string.append(input("Enter some text type string: "))
+for x in list_string:
+    print(x)
+    # 7
+    print(x,end='#')
 #####################################################
