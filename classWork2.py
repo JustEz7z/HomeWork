@@ -119,10 +119,17 @@ from random import randint
 # print(a)
 # print("Max number from a list is {}".format(max(a)))
 # print("Min number from a list is {}".format(min(a)))
-
-
-
-
-
-
-
+# # task 2.2
+# range_list = list(range(10+1))
+# print(range_list)
+# for i in range_list:
+#     if i == 0:
+#         continue
+#     if i % 2 == 0:
+#         print("Pair number {} divides on 2".format(i))
+#     elif i % 3 == 0:
+#         print("The unpaired number {} divides on 3 ".format(i))
+#     if not i % 2 == 0 and not i % 3 == 0 and i == 0:
+#         print("The number {} does not divide on 3 and 2 ".format(i))
+#     else:
+#         pass
