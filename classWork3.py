@@ -50,5 +50,39 @@
 #     a = float(input("Enter area of a: "))
 #     b = float(input("Enter area of b: "))
 #     findAreaRectangle(a,b)
+# task 5
+# num = input("Enter some number: ")
 
-    
+# def findSumNumbers(num):
+#     i = 0
+#     result = 0
+#     for j in range(len(num)):
+#         result += int(num[i])
+#         i += 1
+#     print(result)
+# findSumNumbers(num)
+# # task 6
+
+# task 7
+
+# num = int(input("Enter some number: "))
+# def fiboNumbers(num):
+#     fibo = [0,1]
+#     while fibo[-1] <= num:
+#         fibo.append(fibo[-2] + fibo[-1])
+#         if fibo[-1] > num:
+#             del fibo[-1]
+#             break
+#     print(fibo)    
+        
+# fiboNumbers(num)     
+
+# task 8
+# a = int(input("Enter a number: "))
+# b = int(input("Enter b number: "))
+# c = int(input("Enter c number: "))
+
+# def dissqrr(a,b,c):
+#     x = (-b + ((b**2)-(4*a*c))**0.5)/(2*a)
+#     print(x)
+# dissqrr(a,b,c)
